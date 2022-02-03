@@ -6,4 +6,4 @@ cd aula_react
 
 npm install
 
-npn start
+npm start
