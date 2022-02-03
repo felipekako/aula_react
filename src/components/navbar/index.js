@@ -1,9 +1,12 @@
 import React from "react";
 import  './nav.css';
+import eduardo from "../imagens/eduardo.jpg";
+
 function NaveBar() {
     return (
       <nav class="navbar navbar-expand-lg navbar-light batata">
       <div class="container-fluid">
+        <img src={eduardo}/>
         <a class="ursoBombado" href="#">eduardo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
