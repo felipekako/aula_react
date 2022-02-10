@@ -2,8 +2,8 @@ depois de clonar é para fazer estes passos
 
 
 # comandos 
-cd aula_react
+````cd aula_react```
 
-npm install
+```npm install```
 
-npm start
+```npm start```
