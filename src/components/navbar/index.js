@@ -1,12 +1,12 @@
 import React from "react";
 import  './nav.css';
 import eduardo from "../imagens/eduardo.jpg";
-
+import styled from "styled-components"
 function NaveBar() {
     return (
       <nav class="navbar navbar-expand-lg navbar-light batata">
       <div class="container-fluid">
-        <img src={eduardo}/>
+        <Eduardo src={eduardo}/>
         <a class="ursoBombado" href="#">eduardo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,3 +34,8 @@ function NaveBar() {
   
   export default NaveBar;
   
+
+ const Eduardo = styled.img`
+ height:80px;
+ width:80px;
+ `;
