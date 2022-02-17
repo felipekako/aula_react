@@ -1,19 +1,22 @@
 
 import './App.css';
 import NaveBar from './components/navbar';
-import { BrowserRouter } from "react-router-dom";
 import Home from './components/home';
 import Fps from './components/fps';
 import { Routes, Route } from "react-router-dom";
+import Rodape from './components/rodape';
+
 function App (){
+
   return(
     <>
        <NaveBar/>
        <Routes>
-         <Route path='/'elpement={ <Home/>}/>
-         <Route path='/Fps'element={ <Fps/>}/>
+         <Route path='/' element={ <Home/>}/>
+         <Route path='/fps' element={ <Fps/>}/>
        </Routes>
-           </>
+      
+    </>
    
   )
 }
