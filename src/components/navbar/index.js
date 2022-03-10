@@ -16,8 +16,7 @@ function NaveBar() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">favoritos</a>
-            </li>
+            <Link to="/favoritos">favoritos</Link>            </li>
             <li class="nav-item">
             <Link to="/fps">fps</Link>
   

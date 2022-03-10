@@ -31,7 +31,7 @@ const Fps = () =>{
             </div>
             <div className="imagens">
                 <Imagem src= {call_of_duty}/>
-                 <div class="descrisao">call of discord</div>
+                 <div class="descrisao">call of pato</div>
             </div>
 
         </div>
