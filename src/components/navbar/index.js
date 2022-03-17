@@ -16,8 +16,7 @@ function NaveBar() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">terror</a>
-            </li>
+            <Link to="/favoritos">favoritos</Link>            </li>
             <li class="nav-item">
             <Link to="/fps">fps</Link>
   
@@ -26,7 +25,7 @@ function NaveBar() {
               <a class="nav-link" href="#">na moda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">drip</a>
+            <Link to="/contato">contato</Link>           
             </li>
           </ul>
         </div>
