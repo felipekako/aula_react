@@ -16,4 +16,8 @@ depois de clonar é para fazer estes passos
 ```npm install react-router-dom@6```
 
 # 5
+```npm install @emailjs/browser --save´´´
+
+# 6
+
 ```npm start```

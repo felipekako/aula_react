@@ -25,7 +25,7 @@ function NaveBar() {
               <a class="nav-link" href="#">na moda</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">drip</a>
+            <Link to="/contato">contato</Link>           
             </li>
           </ul>
         </div>
